@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-One powerful feature of CSS the ability to position content in a variety of
+One powerful feature of CSS is the ability to position content in a variety of
 ways without having to write much HTML markup. There are a few different types
 of positioning within CSS, some of which have multiple uses and applications.
 When it comes to page layouts, CSS has become king, so what can be taken advantage
@@ -19,20 +19,20 @@ of to create user-friendly flows?
 ## Use `float` to Pull Content Left or Right
 
 One way to position elements on a page is with the `float` property. The `float` property
-removes it from the normal flow of a page, and position it to the left or right of its 
+removes it from the normal flow of a page and positions it to the left or right of its 
 parent element. All other elements on the page will then "wrap" around the floated element. 
 
 The two most popular values for `float` are left and right, which allow elements to be
-floated to the left or right inside of their parent element. Anytime you float an element
+floated to the left or right inside of their parent element. Anytime you float an element,
 elements that come after are going to try fill into available whitespace next to the floating
-elements. If there's room for a container to fit next to the some floated content, and that
-not the intended affect, you can use the `clear` property. You can set it to clear, or reset from,
+elements. If there's room for a container to fit next to the some floated content, and that is
+not the intended effect, you can use the `clear` property. You can set it to clear, or reset from,
 the element floated `left`, `right`, or elements floating with either using `both`. An example of
 using `float` for layout structure can be seen in the snippet below:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/flatiron_school/VGue9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-In this scenerio, we want the footer to cleanly display below all the column. In order to get the
+In this scenerio, we want the footer to cleanly display below all the columns. In order to get the
 footer to clear past the height of any floating content we can use the `clear` property. Using
 `clear: both` for footer forces it to clear past the height of anything that's floating left and right,
 and stay at the bottom of the columns, right where we want it.
